@@ -1,0 +1,47 @@
+Dependencies for Project '[Project].IMU330_ArraY_AT', Target '[Project].IMU330_ArraY_AT': (DO NOT MODIFY !)
+F (..\src\at32f435_437_int.c)(0x693041ED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../mylib/inc -I ../../ASM330LHHX/inc -I ../../calibration/include -I ../../adxl375/inc -I ../../Jump2App -I ../../option -I ../../tempCalibration-I"D:/Program Files/keil5.36/ArteryTek/AT32F435_437_DFP/2.2.1/Device/Include"-D__UVISION_VERSION="536" -DAT32F435CMU7 -DAT32F435CMU7 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f435_437_int.o -MD)
+I (..\inc\at32f435_437_int.h)(0x6736F4E6)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x66A8B015)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x66A8B015)
+F (..\src\at32f435_437_wk_config.c)(0x6940F826)()
+F (..\src\main.c)(0x693C22B2)()
+F (..\src\wk_system.c)(0x687905A1)()
+F (..\..\libraries\drivers\src\at32f435_437_acc.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_adc.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_can.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_crc.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_crm.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_dac.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_debug.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_dma.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_dvp.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_edma.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_emac.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_ertc.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_exint.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_flash.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_gpio.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_i2c.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_misc.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_pwc.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_qspi.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_scfg.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_sdio.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_spi.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_tmr.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_usart.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_usb.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_wdt.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_wwdt.c)(0x66A8B016)()
+F (..\..\libraries\drivers\src\at32f435_437_xmc.c)(0x66A8B016)()
+F (.\startup_at32f435_437.s)(0x674E7829)()
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.c)(0x66A8B015)()
+F (..\..\mylib\src\ATFlash.c)(0x671EFC0F)()
+F (..\..\mylib\src\ATSpi.c)(0x671A7759)()
+F (..\..\mylib\src\ATUsart.c)(0x671A7751)()
+F (..\..\ASM330LHHX\src\asm330lhhx.c)(0x68786A14)()
+F (..\..\calibration\src\errorcor.c)(0x691565D3)()
+F (..\..\adxl375\src\adxl375.c)(0x674E7395)()
+F (..\..\Jump2App\jump2app.c)(0x67248DF4)()
+F (..\..\option\option.c)(0x674EA716)()
+F (..\..\tempCalibration\tempCalibration.c)(0x676026B8)()
